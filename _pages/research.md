@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: false
 redirect_from:
   - /research/
+  - /research.html
 ---
 
 {% include base_path %}
