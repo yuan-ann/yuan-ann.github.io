@@ -7,7 +7,6 @@ author_profile: false
 
 {% include base_path %}
 
-<br>
 
 ## Working Papers
 
