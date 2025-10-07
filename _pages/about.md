@@ -2,7 +2,7 @@
 permalink: /
 title: "Yuan An"
 excerpt: ""
-author_profile: false
+author_profile: 
 redirect_from: 
   - /about/
   - /about.html
