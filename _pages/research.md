@@ -11,7 +11,7 @@ author_profile: false
 
 <style>
   .paper{margin:1.2rem 0 2rem;}
-  .paper-title{margin:0 0 .2em 0; line-height:105%;}
+  .paper-title{margin:0 0 .2em 0; line-height:100%;}
   .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 .1em 0}
   .paper-meta a{text-decoration:none;}
