@@ -8,7 +8,7 @@ author_profile: false
 {% include base_path %}
 
 
-<div class="mb-4 text-gray-600 uppercase tracking-wide text-lg"> ## Working Papers </div>
+<div class="mb-4 text-gray-600 tracking-wide text-lg"> Working Papers </div>
 
 <style>
   .paper{margin:1.25rem 0 2rem;}
