@@ -21,7 +21,7 @@ author_profile: false
   .abstract{display:none; margin:.5em 0 0 1rem; font-size:.9em;}
 </style>
 
-<!--
+
 <div class="paper">
   <p class="paper-title">
     <a class="text-blue-600 font-medium text-lg" href=""> Delivering Higher Pay? The Impacts of a Task-Level Pay Standard in the Gig Economy </a><br>
@@ -39,7 +39,7 @@ author_profile: false
     
   </div>
 </div>
--->
+<!-- -->
 
 
 
