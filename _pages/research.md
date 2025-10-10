@@ -10,7 +10,7 @@ author_profile: false
 <p style="color:rgb(113,128,150); font-size:1.2em; line-height:320%;"> Working Papers </p>
 
 <style>
-  .paper{margin:1.25rem 0 2rem;}
+  .paper{margin:1.2rem 0 2rem;}
   .paper-title{margin:0 0 .2em 0; line-height:1.25;}
   .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 .1em 0}
