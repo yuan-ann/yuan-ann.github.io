@@ -34,7 +34,7 @@ author_profile: false
   </p>
 
   <p class="paper-id">
-    How does a task-level minimum pay requirement for gig workers affect their earnings and employment?
+    How do per-task minimum pay standards impact earnings and employment in labor markets with no distinction between employed "insiders" and unemployed "outsiders"?
   </p>
   
   <button id="btn-abs1" class="abs-btn"
