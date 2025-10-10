@@ -12,7 +12,8 @@ author_profile: false
 
 <style>
   .paper{margin:1.25rem 0 2rem;}
-  .paper-title{margin:0 0 .2em 0; line-height:1.25; text-decoration:none;}
+  .paper-title{margin:0 0 .2em 0; line-height:1.25;}
+  .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 .1em 0;}
   .paper-id{font-size:.9em; color:#777; margin:0;}
   .paper-id a{color:#777; text-decoration:none;}
