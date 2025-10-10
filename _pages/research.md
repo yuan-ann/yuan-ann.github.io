@@ -8,11 +8,11 @@ author_profile: false
 {% include base_path %}
 
 
-<p style="color:rgb(113,128,150); font-size:1.2em; margin:3.5rem 0 0.5rem;"> Working Papers </p>
+<p style="color:rgb(113,128,150); font-size:1.2em; margin:2.5rem 0 0.5rem;"> Working Papers </p>
 
 
 <style>
-  .paper{margin:1.1rem 0 2rem;}
+  .paper{margin:1.5rem 0 2rem;}
   .paper-title{margin:0 0 .2em 0;}
   .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 1em 0;}
