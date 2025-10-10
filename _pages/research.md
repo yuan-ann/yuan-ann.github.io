@@ -29,8 +29,8 @@ author_profile: false
   </p>
   
   <p class="paper-meta">
-    (with <a href="https://sites.google.com/view/andygarin/home">Andrew Garin</a> and
-    <a href="https://www.andrew.cmu.edu/user/bkovak/">Brian Kovak</a>), September 2025
+    (with <a style="color:black;" href="https://sites.google.com/view/andygarin/home">Andrew Garin</a> and
+    <a style="color:black;" href="https://www.andrew.cmu.edu/user/bkovak/">Brian Kovak</a>), September 2025
   </p>
 
   <br>
