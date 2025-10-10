@@ -14,6 +14,7 @@ author_profile: false
   .paper-title{margin:0 0 .2em 0; line-height:1.25;}
   .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 .1em 0;}
+  .paper-meta a{text-decoration:none;}
   .paper-id{font-size:.9em; color:#777; margin:0;}
   .paper-id a{color:#777; text-decoration:none;}
   .abs-btn{font-size:.9em; padding:2px 6px; margin:.35em 0 0 0; background:none; border:none; color:#555; cursor:pointer; font-weight:500;}
