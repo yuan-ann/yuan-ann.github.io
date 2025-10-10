@@ -7,7 +7,6 @@ author_profile: false
 
 {% include base_path %}
 
-<br>
 <div style="color:rgb(113,128,150); font-size:1.2em;"> Working Papers </div>
 
 <style>
@@ -25,7 +24,7 @@ author_profile: false
 
 <div class="paper">
   <p class="paper-title">
-    <a style="color:rgb(37,99,235);" href=""> Delivering Higher Pay? The Impacts of a Task-Level Pay Standard in the Gig Economy </a><br>
+    <a style="color:rgb(37,99,235);" href=""> <strong> Delivering Higher Pay? The Impacts of a Task-Level Pay Standard in the Gig Economy </strong> </a> <br>
     (with <a href="https://sites.google.com/view/andygarin/home">Andrew Garin</a> and
     <a href="https://www.andrew.cmu.edu/user/bkovak/">Brian Kovak</a>), September 2025
   </p>
