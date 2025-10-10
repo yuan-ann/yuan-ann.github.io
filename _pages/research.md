@@ -7,7 +7,7 @@ author_profile: false
 
 {% include base_path %}
 
-<div style="color:rgb(113,128,150); font-size:1.2em; line-height: 1.38;"> Working Papers </div>
+<div style="color:rgb(113,128,150); font-size:1.2em; line-height:1.38;"> Working Papers </div>
 
 <style>
   .paper{margin:1.25rem 0 2rem;}
@@ -31,11 +31,15 @@ author_profile: false
     (with <a href="https://sites.google.com/view/andygarin/home">Andrew Garin</a> and
     <a href="https://www.andrew.cmu.edu/user/bkovak/">Brian Kovak</a>), September 2025
   </p>
+
+  <br>
   
   <p class="paper-id">
     How does a task-level minimum pay requirement for gig workers affect their earnings and employment?
   </p>
-
+  
+  <br>
+  
   <button id="btn-abs1" class="abs-btn"
           onclick="toggleAbstract('abs1','btn-abs1')"> Abstract +</button>
   <div id="abs1" class="abstract">
