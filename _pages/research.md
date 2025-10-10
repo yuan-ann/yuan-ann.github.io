@@ -7,7 +7,7 @@ author_profile: false
 
 {% include base_path %}
 
-<p style="color:rgb(113,128,150); font-size:1.2em; line-height:385%;"> Working Papers </p>
+<p style="color:rgb(113,128,150); font-size:1.2em; line-height:375%;"> Working Papers </p>
 
 <style>
   .paper{margin:1.25rem 0 2rem;}
@@ -15,9 +15,9 @@ author_profile: false
   .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 .1em 0}
   .paper-meta a{text-decoration:none;}
-  .paper-id{font-size:.9em; color:#777; margin:0; line-height:200%;}
+  .paper-id{font-size:.9em; color:#777; margin:0; line-height:280%;}
   .paper-id a{color:#777; text-decoration:none;}
-  .abs-btn{font-size:.9em; padding:2px 6px; margin:.35em 0 0 0; background:none; border:none; color:#555; cursor:pointer; font-weight:500; line-height:200%;}
+  .abs-btn{font-size:.9em; padding:2px 6px; margin:.35em 0 0 0; background:none; border:none; color:#555; cursor:pointer; font-weight:500; line-height:280%;}
   .abs-btn:hover{text-decoration:underline;}
   .abstract{display:none; margin:.5em 0 0 1rem; font-size:.9em;}
 </style>
