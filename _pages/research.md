@@ -33,7 +33,7 @@ author_profile: false
   <p class="paper-meta">
     (with <a style="color:black;" href="https://sites.google.com/view/andygarin/home">Andrew Garin</a> and
     <a style="color:black;" href="https://www.andrew.cmu.edu/user/bkovak/">Brian Kovak</a>), November 2025. Submitted.<br>
-    NBER Working Paper No. 34545
+    <a href=""> NBER Working Paper No. 34545 </a>
   </p>
 
   <p class="paper-id">
