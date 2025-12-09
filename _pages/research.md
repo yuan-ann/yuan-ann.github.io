@@ -13,7 +13,7 @@ author_profile: false
 
 <style>
   .paper{margin:1.6rem 0 2rem;}
-  .paper-title{margin:0 0 .2em 0;}
+  .paper-title{font-size:1.03em; margin:0 0 .2em 0;}
   .paper-title a{text-decoration:none;}
   .paper-meta{font-size:.95em; margin:0 0 1.1em 0;}
   .paper-meta a{text-decoration:none;}
