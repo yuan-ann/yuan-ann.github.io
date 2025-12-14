@@ -37,7 +37,7 @@ author_profile: false
   </p>
 
   <p class="paper-id">
-    How do <i>task-based</i> minimum pay standards impact earnings and employment in labor markets with <i>no distinction</i> between employed "insiders" and unemployed "outsiders"?
+    How do <i>task-based</i> minimum pay standards impact earnings and employment in labor markets with <i>no clear distinction</i> between employed "insiders" and unemployed "outsiders"?
   </p>
   
   <button id="btn-abs1" class="abs-btn"
