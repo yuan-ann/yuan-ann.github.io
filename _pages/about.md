@@ -14,7 +14,6 @@ redirect_from:
 </style>
 
 
-<br>
 <div class="bio">
     I am a PhD student at Carnegie Mellon University. I work mainly on topics in labor economics, public economics, and industrial organization, using empirical evidence and economic theory.
     <br>
