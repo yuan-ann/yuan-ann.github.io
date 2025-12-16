@@ -10,11 +10,12 @@ redirect_from:
 
 
 <style>
-  .bio{font-family:Helvetica,sans-serif; font-weight:300;}
+  .bio{font-family:Helvetica,sans-serif; font-weight:330;}
 </style>
 
 
 <div class="bio">
+    <br>
     I am a PhD student at Carnegie Mellon University. I work mainly on topics in labor economics, public economics, and industrial organization, using empirical evidence and economic theory.
     <br>
     <br>
