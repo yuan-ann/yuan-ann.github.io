@@ -10,7 +10,7 @@ redirect_from:
 
 
 <style>
-  .paper{font-family:Helvetica,sans-serif}
+  .bio{font-family:Helvetica,sans-serif}
 </style>
 
 
