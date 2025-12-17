@@ -10,7 +10,7 @@ redirect_from:
 
 
 <style>
-  .bio{font-family:Helvetica,sans-serif; font-weight:300;}
+  .bio{font-family:Helvetica,sans-serif; font-weight:310;}
 </style>
 
 
