@@ -21,7 +21,7 @@ author_profile: false
   .paper-id a{color:#777; text-decoration:none;}
   .abs-btn{font-family:Helvetica,sans-serif; font-weight:300; font-size:.9em; padding:2px 6px; margin:.35em 0 0 0; background:none; border:none; color:#555; cursor:pointer; font-weight:500;}
   .abs-btn:hover{text-decoration:underline;}
-  .abstract{font-family:Helvetica,sans-serif; display:none; margin:.5em 0 0 1rem; font-size:.9em;}
+  .abstract{font-family:Helvetica,sans-serif; font-weight:300; display:none; margin:.5em 0 0 1rem; font-size:.9em;}
 </style>
 
 
