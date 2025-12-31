@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research - Gregory F. Veramendi</title>
-  <meta name="description" content="Research by topic - Gregory F. Veramendi">
+  <title>Publications - Gregory F. Veramendi</title>
+  <meta name="description" content="Published research papers by Gregory F. Veramendi">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -22,9 +22,9 @@
       </button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="publications.html">Publications</a></li>
+        <li><a href="publications.html" class="active">Publications</a></li>
         <li><a href="working-papers.html">Working Papers</a></li>
-        <li><a href="research.html" class="active">By Topic</a></li>
+        <li><a href="research.html">By Topic</a></li>
         <li><a href="teaching.html">Teaching</a></li>
         <li><a href="Veramendi-CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
       </ul>
@@ -35,91 +35,16 @@
   <main>
     <div class="container">
       <header class="page-header">
-        <h1 class="page-title">Research by Topic</h1>
-        <p class="page-description">Browse all papers by research area</p>
+        <h1 class="page-title">Publications</h1>
+        <p class="scholar-link">
+          <a href="https://scholar.google.com/citations?user=N0qBUX4AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a>
+        </p>
       </header>
-
-      <!-- Topic Filters -->
-      <div class="filters">
-        <p class="filters-label">Filter by topic:</p>
-        <div class="filter-buttons">
-          <button class="filter-btn active" data-topic="all">All</button>
-          <button class="filter-btn" data-topic="labor">Labor</button>
-          <button class="filter-btn" data-topic="education">Education</button>
-          <button class="filter-btn" data-topic="health">Health</button>
-          <button class="filter-btn" data-topic="gender">Gender</button>
-        </div>
-        <p class="paper-count">Showing 20 papers</p>
-      </div>
 
       <div class="papers-list">
 
-        <!-- Paper 1: Labor, Gender, Health -->
-        <article class="paper-card" data-topics="labor gender health">
-          <h3 class="paper-title">
-            The Labor Market Returns to Delaying Pregnancy
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://yanagallen.com/" target="_blank" rel="noopener noreferrer">Y. Gallen</a>,
-            <a href="https://sites.google.com/site/juannajoensen/" target="_blank" rel="noopener noreferrer">J. Joensen</a>, and
-            <a href="https://sites.google.com/view/evaryejohansen/" target="_blank" rel="noopener noreferrer">E. Johansen</a>
-          </p>
-          <p class="paper-venue">
-            <em><strong>American Economic Review</strong></em>, resubmitted (2025)
-            <span class="paper-status revision">R&R</span>
-          </p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="https://ssrn.com/abstract=4554407" class="paper-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
-          </div>
-          <div class="paper-abstract">
-            <p>This paper examines the labor market returns to delaying pregnancy, studying how the timing of first birth affects women's career outcomes. Using administrative data, we identify the causal effects of pregnancy timing on wages, employment, and career progression, contributing to our understanding of the motherhood penalty and gender wage gap.</p>
-          </div>
-        </article>
-
-        <!-- Paper 2: Education, Labor -->
-        <article class="paper-card" data-topics="education labor">
-          <h3 class="paper-title">
-            Complementarities in High School and College Investments
-          </h3>
-          <p class="paper-authors">
-            with <a href="http://johnerichumphries.com/" target="_blank" rel="noopener noreferrer">J. E. Humphries</a> and
-            <a href="https://sites.google.com/site/juannajoensen/" target="_blank" rel="noopener noreferrer">J. Joensen</a>
-          </p>
-          <p class="paper-venue">
-            <em><strong>Journal of Political Economy</strong></em>, revision requested (2025)
-            <span class="paper-status revision">R&R</span>
-          </p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="https://ssrn.com/abstract=4560152" class="paper-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
-          </div>
-          <div class="paper-abstract">
-            <p>This paper studies the complementarities between multi-dimensional abilities, high school investments, and college investments in wages. Using a novel administrative data set from Sweden, the analysis accounts for a rich set of observables; latent cognitive, grit, and interpersonal abilities; high school specialization in vocational, academic, and STEM tracks; and college major choices. We find that investing in more challenging tracks in high school increases college enrollment and graduation, but not necessarily wages. For students who do not pursue medicine or engineering in college, specializing in STEM in high school leads to slightly lower wages compared to a more balanced academic track.</p>
-          </div>
-        </article>
-
-        <!-- Paper 3: Health -->
-        <article class="paper-card" data-topics="health">
-          <h3 class="paper-title">
-            The Dynamics of Behavioral Responses During a Crisis
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://sites.google.com/view/corinnahartung" target="_blank" rel="noopener noreferrer">C. Hartung</a> and
-            <a href="https://www.en.empwi.econ.uni-muenchen.de/team/professor/winter/index.html" target="_blank" rel="noopener noreferrer">J. Winter</a>
-          </p>
-          <p class="paper-venue">Submitted (2025)</p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="papers/HVW_COVID19_Behavioral.pdf" class="paper-btn" target="_blank" rel="noopener noreferrer">PDF</a>
-          </div>
-          <div class="paper-abstract">
-            <p>This paper investigates the dynamics of behavioral changes during a crisis. We study this in the context of the first year of the Covid-19 pandemic, where behavioral responses were important in mitigating the costs of the pandemic. To identify behavioral responses to unanticipated and transient health risk shocks, we combine high-frequency cellphone mobility data with detailed incidence data in Germany. Using an event-study design on local outbreaks, we find that county-level mobility immediately and significantly decreased by about 2.5% in response to an outbreak independent of non-pharmaceutical interventions. We also find that the reproduction rate decreased by about 17% in response to a local outbreak.</p>
-          </div>
-        </article>
-
-        <!-- Paper 4: Labor, Gender -->
-        <article class="paper-card" data-topics="labor gender">
+        <!-- Paper 1 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             The Gender Wage Gap: Skills, Sorting, and Returns
           </h3>
@@ -140,8 +65,8 @@
           </div>
         </article>
 
-        <!-- Paper 5: Labor -->
-        <article class="paper-card" data-topics="labor">
+        <!-- Paper 2 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             Sufficient Statistics for Frictional Wage Dispersion and Growth
           </h3>
@@ -161,8 +86,8 @@
           </div>
         </article>
 
-        <!-- Paper 6: Labor, Gender -->
-        <article class="paper-card" data-topics="labor gender">
+        <!-- Paper 3 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             Gender Differences within the Firm: Evidence from Two Million Travelers
           </h3>
@@ -182,8 +107,8 @@
           </div>
         </article>
 
-        <!-- Paper 7: Education, Gender -->
-        <article class="paper-card" data-topics="education gender">
+        <!-- Paper 4 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             How Early Adolescent Skills and Preferences Shape Economics Education Choices
           </h3>
@@ -207,8 +132,8 @@
           </div>
         </article>
 
-        <!-- Paper 8: Labor -->
-        <article class="paper-card" data-topics="labor">
+        <!-- Paper 5 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             Networks, Frictions, and Price Dispersion
           </h3>
@@ -222,15 +147,15 @@
           <div class="paper-actions">
             <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
             <a href="https://www.sciencedirect.com/science/article/pii/S0899825620301329" class="paper-btn" target="_blank" rel="noopener noreferrer">Journal</a>
-            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2667585" class="paper-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
+            <a href="http://dx.doi.org/10.2139/ssrn.2667585" class="paper-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
           </div>
           <div class="paper-abstract">
             <p>This paper uses networks to study price dispersion in seller-buyer markets where buyers with unit demand interact with multiple, but not all, sellers; and buyers and sellers compete on prices after they meet. The central finding of this paper is that price dispersion is determined by the structure of the network. First, for any given network we characterize the pairwise stable matchings and the prices that support them. Second, we characterize the set of all graphs where price dispersion is precluded. Third, we use a theorem from Frieze (1985) to show that the graphs where price dispersion is precluded arise asymptotically with probability one in random Poisson networks, even as the probability of each individual link goes to zero.</p>
           </div>
         </article>
 
-        <!-- Paper 9: Education, Labor, Health -->
-        <article class="paper-card" data-topics="education labor health">
+        <!-- Paper 6 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             Returns to Education: The Causal Effects of Education on Earnings, Health, and Smoking
           </h3>
@@ -251,8 +176,8 @@
           </div>
         </article>
 
-        <!-- Paper 10: Education, Health -->
-        <article class="paper-card" data-topics="education health">
+        <!-- Paper 7 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             The Non-Market Benefits of Abilities and Education
           </h3>
@@ -273,8 +198,8 @@
           </div>
         </article>
 
-        <!-- Paper 11: Education, Labor -->
-        <article class="paper-card" data-topics="education labor">
+        <!-- Paper 8 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             Dynamic Treatment Effects
           </h3>
@@ -294,8 +219,8 @@
           </div>
         </article>
 
-        <!-- Paper 12: Labor -->
-        <article class="paper-card" data-topics="labor">
+        <!-- Paper 9 -->
+        <article class="paper-card">
           <h3 class="paper-title">
             Frictions in Internet Auctions with Many Traders: A Counterexample
           </h3>
@@ -312,132 +237,8 @@
             <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2667659" class="paper-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
           </div>
           <div class="paper-abstract">
-            <p>We show that when frictions are present, the Peters and Severinov (2006) bidding rule is no longer efficient nor a PBE of the PS game.</p>
+            <p>We show that when frictions are present, the Peters and Severinov (2006) (PS) bidding rule is no longer efficient nor a PBE of the PS game. Researchers should be cautious when using the PS bidding rule in markets with frictions like eBay.</p>
           </div>
-        </article>
-
-        <!-- Paper 13: Education, Labor -->
-        <article class="paper-card" data-topics="education labor">
-          <h3 class="paper-title">
-            The Role of Sorting and Skill Prices in the Evolution of the College Premium
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://sites.google.com/site/ewdillon/home" target="_blank" rel="noopener noreferrer">E. Dillon</a>
-          </p>
-          <p class="paper-venue">Working Paper (2019)</p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="papers/DillonVeramendi_CollegePremium.pdf" class="paper-btn" target="_blank" rel="noopener noreferrer">PDF</a>
-          </div>
-          <div class="paper-abstract">
-            <p>The gap in wages between workers with and without a college degree has widened substantially since 1980. This change in observed wage patterns could have multiple explanations, including changes in the individual returns to college training, changes in the composition of workers at each schooling level, and changes in the returns to pre-schooling skill endowments. We estimate a robust dynamic model of educational choices and wages that incorporates all three possibilities. We find that most of the growth in the observed college premium from the late 1980s to 2015 can be attributed to changes in the causal effect of college.</p>
-          </div>
-        </article>
-
-        <!-- Paper 14: Education -->
-        <article class="paper-card" data-topics="education">
-          <h3 class="paper-title">
-            Rethinking Education Choice: The Effect of Surveys
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://sites.google.com/site/lucafacchinello/" target="_blank" rel="noopener noreferrer">L. Facchinello</a> and
-            <a href="https://sites.google.com/site/juannajoensen/" target="_blank" rel="noopener noreferrer">J. Joensen</a>
-          </p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2961116" class="paper-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
-          </div>
-          <div class="paper-abstract">
-            <p>Can surveys affect human capital investments? This paper examines whether individual education choices and outcomes are affected by a survey posing questions related to expectations and forward-looking behavior. We have administrative data for the whole Swedish population to which an extensive education survey was administered to randomly drawn samples of 3rd graders. The causal effect of the survey on both short- and long-term outcomes is generally not significantly different from zero. We find, however, that being surveyed increases educational attainment and job stability in the early career for those with low parental education.</p>
-          </div>
-        </article>
-
-        <!-- Paper 15: Labor -->
-        <article class="paper-card" data-topics="labor">
-          <h3 class="paper-title">
-            Labor Market Dynamics: A Model of Search and Human Capital Accumulation
-          </h3>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="papers/V_LaborMarketDynamics.pdf" class="paper-btn" target="_blank" rel="noopener noreferrer">PDF</a>
-          </div>
-          <div class="paper-abstract">
-            <p>Informed by new measurements of labor market dynamics, I develop and estimate an equilibrium search model of worker mobility. I describe new facts about wage dynamics across involuntary unemployment spells in Denmark. I construct a model combining search and human capital accumulation. Workers accumulate skills via learning-by-doing with decreasing returns for a given job. Workers must either be promoted or find a job at a new firm to continue learning new skills. The estimates show that the job-ladder model explains less than 10% of worker mobility seen in the data.</p>
-          </div>
-        </article>
-
-        <!-- Paper 16: Education, Gender -->
-        <article class="paper-card" data-topics="education gender">
-          <h3 class="paper-title">
-            The Impact of Out-of-Home Childcare Centers on Early Childhood Development
-          </h3>
-          <p class="paper-authors">
-            with <a href="http://econweb.umd.edu/~urzua/" target="_blank" rel="noopener noreferrer">S. Urzua</a>
-          </p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-            <a href="http://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=36213534" class="paper-btn" target="_blank" rel="noopener noreferrer">IADB</a>
-          </div>
-          <div class="paper-abstract">
-            <p>This paper presents a comprehensive empirical analysis of the impact of attending a child day care center on early childhood development (ECD) in Chile. The potential endogeneity associated with the parental decision of sending children to day care centers is addressed, and unobserved heterogeneity is interpreted as latent abilities. The results suggest that enrollment in child care centers seems to boost cognitive development among children older than two.</p>
-          </div>
-        </article>
-
-        <!-- Paper 17: Education -->
-        <article class="paper-card" data-topics="education">
-          <h3 class="paper-title">
-            College Major Choice: Sorting and Differential Returns to Skills
-          </h3>
-          <p class="paper-authors">
-            with <a href="http://johnerichumphries.com/" target="_blank" rel="noopener noreferrer">J. E. Humphries</a> and
-            <a href="https://sites.google.com/site/juannajoensen/" target="_blank" rel="noopener noreferrer">J. Joensen</a>
-          </p>
-          <p class="paper-venue">In Progress</p>
-          <div class="paper-actions">
-            <button class="paper-btn abstract-toggle" aria-expanded="false">+ Abstract</button>
-          </div>
-          <div class="paper-abstract">
-            <p>Does the college major premium reflect returns to prior abilities or college education? We decompose the college major premium into labor market returns to multidimensional abilities (grit, interpersonal, and cognitive) and skills learned in college. We find that sorting on abilities accounts for 10-50% of the college major premium. We document that 40% of students who enter STEM degrees change major or drop out.</p>
-          </div>
-        </article>
-
-        <!-- Paper 18: Labor -->
-        <article class="paper-card" data-topics="labor">
-          <h3 class="paper-title">
-            Simultaneous Search and Market Power in Labor Markets
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://www.jdonna.org/" target="_blank" rel="noopener noreferrer">J. Donna</a>,
-            <a href="https://www.stat.lmu.de/en/people/contact-page/nurzhan-sapargali-f4a24d61.html" target="_blank" rel="noopener noreferrer">N. Sapargali</a>, and
-            <a href="https://sites.google.com/site/econrunevejlin/home" target="_blank" rel="noopener noreferrer">R. Vejlin</a>
-          </p>
-          <p class="paper-venue">In Progress</p>
-        </article>
-
-        <!-- Paper 19: Education, Gender -->
-        <article class="paper-card" data-topics="education gender">
-          <h3 class="paper-title">
-            Field of Study and Future Fertility
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://adamaltmejd.se/" target="_blank" rel="noopener noreferrer">A. Altmejd</a>,
-            <a href="http://johnerichumphries.com/" target="_blank" rel="noopener noreferrer">J. E. Humphries</a>, and
-            <a href="https://sites.google.com/site/juannajoensen/" target="_blank" rel="noopener noreferrer">J. Joensen</a>
-          </p>
-          <p class="paper-venue">In Progress</p>
-        </article>
-
-        <!-- Paper 20: Education, Health -->
-        <article class="paper-card" data-topics="education health">
-          <h3 class="paper-title">
-            College Major and Health over the Life-Cycle
-          </h3>
-          <p class="paper-authors">
-            with <a href="https://adamaltmejd.se/" target="_blank" rel="noopener noreferrer">A. Altmejd</a>,
-            <a href="http://johnerichumphries.com/" target="_blank" rel="noopener noreferrer">J. E. Humphries</a>, and
-            <a href="https://sites.google.com/site/juannajoensen/" target="_blank" rel="noopener noreferrer">J. Joensen</a>
-          </p>
-          <p class="paper-venue">In Progress</p>
         </article>
 
       </div>
