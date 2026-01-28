@@ -34,7 +34,7 @@ author_profile: false
     (with <a style="color:black;" href="https://sites.google.com/view/andygarin/home">Andrew Garin</a> and
     <a style="color:black;" href="https://www.andrew.cmu.edu/user/bkovak/">Brian Kovak</a>), November 2025. Submitted.<br>
     <a style="font-size:.9em; color:#777;" href=""> NBER Working Paper No. 34545 </a><br>
-    Coverage: <a style="font-size:.9em; color:black;" href="https://finance.yahoo.com/news/seattles-delivery-minimum-wage-failed-120039601.html">Yahoo Finance</a>, <a style="font-size:.9em; color:black;" href="">NBER Digest</a>
+    <p class="paper-id">Coverage:</p> <a style="font-size:.9em; color:black;" href="https://finance.yahoo.com/news/seattles-delivery-minimum-wage-failed-120039601.html">Yahoo Finance</a>, <a style="font-size:.9em; color:black;" href="">NBER Digest</a>
   </p>
 
   <p class="paper-id">
