@@ -296,8 +296,8 @@ main {
 .paper-card {
   background: var(--color-white);
   border-radius: var(--radius-md);
-  padding: var(--space-lg);
-  margin-bottom: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-sm);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--color-border-light);
   transition: box-shadow var(--transition-normal);
@@ -309,9 +309,9 @@ main {
 
 .paper-title {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
 }
 
 .paper-title a {
@@ -325,7 +325,7 @@ main {
 .paper-authors {
   font-size: 0.95rem;
   color: var(--color-text-light);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
 }
 
 .paper-authors a {
@@ -340,7 +340,7 @@ main {
 .paper-venue {
   font-size: 0.9rem;
   color: var(--color-text-muted);
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
 }
 
 .paper-venue em {
@@ -376,7 +376,7 @@ main {
   display: flex;
   gap: var(--space-sm);
   flex-wrap: wrap;
-  margin-bottom: var(--space-sm);
+  margin-bottom: 0;
 }
 
 .paper-btn {
@@ -406,11 +406,11 @@ main {
 
 .paper-abstract {
   display: none;
-  margin-top: var(--space-md);
-  padding-top: var(--space-md);
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
   border-top: 1px solid var(--color-border-light);
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 0.93rem;
+  line-height: 1.6;
   color: var(--color-text-light);
 }
 
