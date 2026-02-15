@@ -295,9 +295,9 @@ main {
 /* Paper Cards */
 .paper-card {
   background: var(--color-white);
-  border-radius: var(--radius-md);
-  padding: var(--space-md) var(--space-lg);
-  margin-bottom: var(--space-sm);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.35rem;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--color-border-light);
   transition: box-shadow var(--transition-normal);
@@ -309,9 +309,9 @@ main {
 
 .paper-title {
   font-family: var(--font-heading);
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: var(--space-xs);
+  margin-bottom: 2px;
 }
 
 .paper-title a {
@@ -323,9 +323,9 @@ main {
 }
 
 .paper-authors {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: var(--color-text-light);
-  margin-bottom: var(--space-xs);
+  margin-bottom: 2px;
 }
 
 .paper-authors a {
@@ -338,9 +338,9 @@ main {
 }
 
 .paper-venue {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--color-text-muted);
-  margin-bottom: var(--space-sm);
+  margin-bottom: 4px;
 }
 
 .paper-venue em {
@@ -383,8 +383,8 @@ main {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  padding: var(--space-xs) var(--space-sm);
-  font-size: 0.85rem;
+  padding: 2px 0.4rem;
+  font-size: 0.8rem;
   color: var(--color-secondary);
   background: transparent;
   border: 1px solid var(--color-border);
@@ -406,11 +406,11 @@ main {
 
 .paper-abstract {
   display: none;
-  margin-top: var(--space-sm);
-  padding-top: var(--space-sm);
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
   border-top: 1px solid var(--color-border-light);
-  font-size: 0.93rem;
-  line-height: 1.6;
+  font-size: 0.88rem;
+  line-height: 1.5;
   color: var(--color-text-light);
 }
 
