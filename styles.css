@@ -564,6 +564,16 @@ main {
 /* Google Scholar Link */
 .scholar-link {
   margin-bottom: var(--space-lg);
+  font-size: 1.1rem;
+}
+
+.scholar-link a {
+  color: #c05621;
+  font-weight: 600;
+}
+
+.scholar-link a:hover {
+  color: #9c4221;
 }
 
 /* Responsive Design */
